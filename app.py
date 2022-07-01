@@ -68,7 +68,9 @@ app_mode = st.sidebar.selectbox(
 if app_mode == 'About':
 
     st.title('About The Project')
-    st.write('We will put some text here')
+    st.write('This project is about the "Machine Learning Applications" course of MSc in Artificial Intelligence of University Piraeus and NCSR Demokritos.')
+    st.write('It adresses the problem of introducing a Virtual Fitness Assistant, which would help working out from home, as it would detect the exercise performing and count the repetitions achieved.')
+    st.write('Made with power and love.')
 
 elif app_mode == 'Demo' or app_mode == 'Your Video':
 
